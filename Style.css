@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    min-height: 100%;
+    font-family: 'Poppins', sans-serif !important;
+    padding-bottom: 60px;
+}
+
+.bg {
+    position: relative;
+    height: 100vh;
+    background-image: url('rupixen-com-pbgYcq3_Zx0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top ;
+}
+
+.bg2 {
+    position: relative;
+    background-color: rgba(230, 230, 230, 0.404);
+}
+
+nav img{
+    margin-right: 15px;
+    width: 70px;
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgba(175, 210, 255, 0.404); */
+}
+
+.page-container {
+    min-height: 100vh;
+    position: relative;
+}
+
+.content-wrap {
+    padding-bottom: 5%;
+}
+
+table {
+    color: rgb(80, 80, 80); 
+    background-color: rgb(245, 245, 245);
+}
+
+.my-table tr:nth-child(even) {
+    background-color: rgb(238, 237, 237);
+}
+
+td {
+    vertical-align: middle;
+}
+
+select { 
+    text-align-last: center;
+}
+
+.footer {
+    position: absolute;
+    vertical-align: middle;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+    
+.fa-paper-plane {
+    vertical-align: middle;
+    padding-top: 5px;
+}
